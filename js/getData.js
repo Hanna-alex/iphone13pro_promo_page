@@ -52,7 +52,7 @@ const getData = () => {
   }
 
   const getGoods = () => {
-    fetch('./cross-sell-dbase/dbase.json')
+    fetch('../cross-sell-dbase/dbase.json')
     .then((response) => {
       if (response.ok) {
         return response.json()
@@ -66,7 +66,7 @@ const getData = () => {
     })
 
     .catch((error) => {
-      console.error(error.message);
+      //console.error(error.message);
     })
   }
   btn.addEventListener('click', getGoods)
