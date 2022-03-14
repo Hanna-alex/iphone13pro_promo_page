@@ -66,7 +66,7 @@ const getData = () => {
     })
 
     .catch((error) => {
-      //console.error(error.message);
+      console.error(error.message);
     })
   }
   btn.addEventListener('click', getGoods)
