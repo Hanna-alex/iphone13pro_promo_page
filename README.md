@@ -2,6 +2,7 @@
 #### интенсив от Glo Academy
 ####  https://hanna-alex.github.io/iphone13pro_promo_page/
 
+
 ## Используемые технологии:
 - JS:
   - плавная прокрутка ссылок
